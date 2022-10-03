@@ -1,0 +1,174 @@
+body{
+  font-family: 'Montserrat-black';
+
+}
+
+h1{
+  font-family: "Montserrat-black", sans-serif;
+  font-size:4rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat-black";
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+p{
+  color: gray;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+#title{
+  background-color: #ff4e68;
+  color:#fff;
+}
+
+/* navigation bar */
+
+.navbar{
+  padding-bottom:4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+/* download button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  width: 20%;
+  right: 25%;
+}
+
+/* Feature section */
+
+#features{
+  padding:7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color:#ef8172;
+  margin-bottom:1rem;
+}
+
+.icon:hover{
+  color:#ff4e68;
+}
+
+/* testimoniala section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ff4e68;
+  color: #fff;
+}
+
+.carousel-item{
+  padding:7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+#press{
+  background-color:#ff4e68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+@media (max-width:1000px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position:static;
+    transform: rotate(0);
+    width: 50%;
+  }
+
+}
+
+/* Cta section */
+
+#cta{
+  text-align: center;
+  background-color: #ff4e68;
+  padding:3% 2%;
+}
+.cta-text{
+  font-family: "Montserrat-bold";
+  color: white;
+}
+.download-button-cta{
+  margin: 1% 2%;
+}
+
+/* footer section */
+#footer{
+  text-align: center;
+  padding: 3% 2%;
+}
+
+.footer-text{
+  margin:3% 2%;
+}
